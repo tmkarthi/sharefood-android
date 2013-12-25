@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Share Food</string>
+    <string name="action_settings">Settings</string>
+    <string name="donatedFoodDescription">Description</string>
+    <string name="donatedFoodQuantity">Quantity</string>
+    <string name="donatedFoodPickupAddress">Pickup Address</string>
+    <string name="donatedFoodPickupCity">City</string>
+    <string name="donatedFoodPickupPhone">Phone number</string>
+    
+</resources>
