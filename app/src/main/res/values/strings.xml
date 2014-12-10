@@ -12,5 +12,9 @@
     <string name="donatedFoodPickupPhone">Phone number</string>
     <string name="donatedFoodSubmitDonation">Submit Donation</string>
     <string name="donatedFoodPostalCode">Pincode</string>
-    
+    <string name="title_activity_list_active_donations">ListActiveDonationsActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="donatedFoodListDonations">List Donations</string>
+    <string name="listDonationsEdit">Edit</string>
+
 </resources>

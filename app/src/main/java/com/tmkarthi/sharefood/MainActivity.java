@@ -3,6 +3,7 @@ package com.tmkarthi.sharefood;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Base64;
@@ -91,7 +92,12 @@ public class MainActivity extends Activity {
         return Base64.encodeToString((username + ":" + password).getBytes(),
                 Base64.DEFAULT);
     }
-    
+
+    public void listDonations(View view) {
+        Intent intent = new Intent(getApplicationContext(), ListActiveDonationsActivity.class);
+        startActivity(intent);
+    }
+
     class SubmitDonationTask extends AsyncTask<String, Void, String> {
 
         private Exception exception;
