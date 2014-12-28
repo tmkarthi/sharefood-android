@@ -16,5 +16,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="donatedFoodListDonations">List Donations</string>
     <string name="listDonationsEdit">Edit</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

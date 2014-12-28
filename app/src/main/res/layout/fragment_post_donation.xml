@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical"
+    tools:context="com.tmkarthi.sharefood.PostDonationFragment">
+
+    <TextView
+        android:id="@+id/donatedFoodDescriptionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/donatedFoodDescription" />
+
+    <EditText
+        android:id="@+id/donatedFoodDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/donatedFoodQuantityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/donatedFoodQuantity" />
+
+    <EditText
+        android:id="@+id/donatedFoodQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/donatedFoodPickupAddressLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/donatedFoodPickupAddress" />
+
+    <EditText
+        android:id="@+id/donatedFoodPickupAddress1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/donatedFoodPickupAddress1Hint"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/donatedFoodPickupAddress2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/donatedFoodPickupAddress2Hint"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/donatedFoodPickupCityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/donatedFoodPickupCity" />
+
+    <EditText
+        android:id="@+id/donatedFoodPickupCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/donatedFoodPickupPhoneLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/donatedFoodPickupPhone" />
+
+    <EditText
+        android:id="@+id/donatedFoodPickupPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/donatedFoodPostalCodeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/donatedFoodPostalCode" />
+
+    <EditText
+        android:id="@+id/donatedFoodPostalCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/donatedFoodSubmitDonation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/donatedFoodSubmitDonation" />
+
+        <Button
+            android:id="@+id/donatedFoodListDonation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="listDonations"
+            android:text="@string/donatedFoodListDonations" />
+
+    </LinearLayout>
+
+</LinearLayout>
